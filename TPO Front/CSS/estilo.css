@@ -1,0 +1,312 @@
+
+.animate__slideInDown{/*Animacion*/
+    animation-duration: 1.5s;
+}
+header{
+    background-color: black;
+    width:100%;
+    max-width: 100%;
+    height: 5%;
+    max-height: 10%;
+}
+.containerh{
+    display:grid;/*Grid*/
+    grid-template-columns: 100%;
+    grid-template-rows: 2% 2%;
+    margin-top: 2%;
+    
+}
+.item nav{
+    grid-row: 1;
+
+}
+.item titu{
+    grid-row: 2;
+    justify-content: center;
+}
+.enlac{
+    background-color: white;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 1%;
+    margin-left: 2%;
+   
+   }
+h1{
+    color: white;
+    font-family:'Bebas Neue', cursive;
+    font-weight: normal;
+    text-align: center;
+
+}
+.animate__fadeIn{/*Animacion*/
+    animation-duration: 2.5s;
+    
+}
+.grid-info{
+    display:grid;/*Grid*/
+    grid-column-gap: 20%;
+    height: 10%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width:90%;
+    max-width: 100%;
+    grid-row-gap: 1%;
+    margin-left: 3%;
+    text-decoration: none;
+    margin-top:4%;
+    justify-content: center;
+}
+#bienv{
+    font-family: 'Bebas Neue', cursive;
+    grid-column-start:1;
+    grid-column-end: 4;
+    grid-row:1;
+    text-align: center;
+}
+.qs{
+    grid-column:1;
+    grid-row: 3;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: black;
+}
+.obj{
+    grid-column: 2;
+    grid-row: 3;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: black;
+}
+.ms{
+    grid-column:3;
+    grid-row: 3;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    color: black;
+}
+.icoqs{
+    grid-column: 1;
+    grid-row: 2;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.icobj{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.icoms{
+    grid-column: 3;
+    grid-row: 2;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.infoinf{
+   justify-content: center;
+   padding-top:1%;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+#sm{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width:90%;
+    max-width: 90%;
+    margin-left: 5%;
+    height: 60%;
+}
+#obje{
+    font-family: 'Roboto', sans-serif;
+    text-align: start;
+}
+.gridubi{
+    display: grid;/*Grid*/
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    grid-column-gap:20%;
+    padding-bottom: 8%;
+    }
+ .item1u{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 1%;
+ }
+ .item2u{
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 10%;
+    text-align: center;
+}
+
+.volver{
+    color:black
+}
+.container{
+    padding: 2% 9% 1% 9%;
+    background-color: rgba(230, 230, 230, 0.973);
+    margin-bottom: 2%;
+}
+.dise1{
+    display: grid;/*Grid*/
+    background-image: url('/Imagenes/Dise1/back.jpg');
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
+    padding:1%;
+}
+.dise1txt{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 8%;
+    text-align: center;
+}
+.tallermoda{
+    display: grid;/*Grid*/
+    background-image: url('/Imagenes/Tallermoda/back.jpg');
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
+    padding:1%;
+    justify-content: center;
+}
+.tallertxt{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3%;
+    text-align: center;
+}
+.dise5{
+    display: grid;/*Grid*/
+    background-image: url('/Imagenes/Dise5/back.jpg');
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
+    padding:1%;
+}
+.dise5txt{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5%;
+    text-align: center;
+}
+.calzado{
+    display: grid;/*Grid*/
+    background-image: url('/Imagenes/Calzado/panel\ posible.jpg');
+    grid-template-columns: auto auto auto;
+    margin-left: 10%;
+    padding:1%;
+}
+.calzadotxt{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3%;
+    text-align: center;
+}
+/*Puntos de corte para que sea responsive*/
+@media only screen and (max-width: 600px) {
+   h1 {width: 90%; font-size: 300%; text-align: center; margin-left: 5%;}
+   .containerh{ max-width: 100%;}
+   #bienv{ font-size: 250%; text-align: center; margin-left: 20%;}
+   .grid-info * {font-size: 130%; width: 60%; max-width: 100%; justify-content: center; margin:5%; grid-row-gap: 2%}
+   .gridubi{ max-width: 100%; width: 100%; justify-content: center; grid-row-gap: 7%;margin-bottom: 3%;}
+   .item2u { width: 100%; height: 80%; grid-row: 2; grid-column: 1;}
+   .item1u{ font-size: 150%;height: 1%; grid-row: 1;width: 120%; grid-column: 1;}
+   #sm,#obje { font-size: 150%; }
+   h2{ font-size: 200%;}
+   .enlac{ font-size: 80%;  margin-bottom: 2%; }
+   .foto{ grid-column: 1; grid-row: 1;}
+   .foto2{ grid-column: 2; grid-row: 1; }
+   .dise1,.tallermoda,.dise5{ grid-column-gap: 1%;  justify-content: center; width: 70%; margin-left: 15%; padding-left: 5%; padding-top: 2%;}
+   .calzado{ grid-column-gap: 1%;  justify-content: center; width: 85%;}
+   .dise1txt, .tallertxt, .dise5txt, .calzadotxt { grid-row: 2; grid-column-start: 1; grid-column-end:3}
+   .dise1txt{ font-size: 120%; padding-bottom: 1%; margin-bottom: 4%; width: 80%; margin-left: 6%;}
+   .tallertxt{font-size: 110%; padding-bottom: 1%; padding-right: 3%;}
+   .dise5txt { font-size: 120%; padding-right: 4%; padding-bottom: 1%; margin-bottom: 2%;}
+   .calzadotxt{font-size: 110%; padding: 2%;}
+   .img { width: 4cm; height: 6.5cm;}
+   .imgzd{width: 5cm; height: 5cm;}
+   .imgzf{width: 5cm; height: 5cm;}
+}
+@media only screen and (min-width: 601px) {
+   h1 {width: 90%; font-size: 300%; text-align: center; margin-left: 5%;}
+   .containerh{ max-width: 100%;}
+   #bienv{ font-size: 250%; text-align: center; margin-left: 20%;}
+   .grid-info * {font-size: 130%; width: 60%; max-width: 100%; justify-content: center; margin:5%; grid-row-gap: 2%}
+   .gridubi{ max-width: 100%; width: 100%; justify-content: center; grid-row-gap: 7%;margin-bottom: 3%;}
+   .item2u { width: 100%; height: 80%; grid-row: 2; grid-column: 1;}
+   .item1u{ font-size: 150%;height: 1%; grid-row: 1;width: 120%; grid-column: 1;}
+   #sm,#obje { font-size: 150%; }
+   h2{ font-size: 200%;}
+   .enlac{ font-size: 80%;  margin-bottom: 2%; }
+   .foto{ grid-column: 1; grid-row: 1;}
+   .foto2{ grid-column: 2; grid-row: 1; }
+   .dise1,.tallermoda,.dise5{ grid-column-gap: 1%;  justify-content: center; width: 70%; margin-left: 15%; padding-left: 5%; padding-top: 2%;}
+   .calzado{ grid-column-gap: 1%;  justify-content: center; width: 85%;}
+   .dise1txt, .tallertxt, .dise5txt, .calzadotxt { grid-row: 2; grid-column-start: 1; grid-column-end:3}
+   .dise1txt{ font-size: 120%; padding-bottom: 1%; margin-bottom: 4%; width: 80%; margin-left: 6%;}
+   .tallertxt{font-size: 110%; padding-bottom: 1%; padding-right: 3%;}
+   .dise5txt { font-size: 120%; padding-right: 4%; padding-bottom: 1%; margin-bottom: 2%;}
+   .calzadotxt{font-size: 110%; padding: 2%;}
+   .img { width: 4cm; height: 6.5cm;}
+   .imgzd{width: 5cm; height: 5cm;}
+   .imgzf{width: 5cm; height: 5cm;}
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {width: 90%; font-size: 400%; text-align: center; margin-left: 5%;}
+   .containerh{ max-width: 100%;}
+   #bienv{ font-size: 350%; text-align: start; margin-left: 25%;}
+   .grid-info * {font-size: 150%; width: 100%; max-width: 100%; justify-content: center; grid-row-gap: 2%}
+   .gridubi{ max-width: 100%; width: 100%; justify-content: center; grid-row-gap: 7%;margin-bottom: 3%;}
+   .item2u { width: 100%; height: 80%; grid-row: 2; grid-column: 1;}
+   .item1u{ font-size: 150%;height: 1%; grid-row: 1;width: 120%; grid-column: 1;}
+   #sm,#obje { font-size: 180%; }
+   h2{ font-size: 300%;}
+   .enlac{ font-size: 90%;  margin-bottom: 2%; }
+   .foto{ grid-column: 1; grid-row: 1;}
+   .foto2{ grid-column: 2; grid-row: 1; }
+   .dise1,.tallermoda,.dise5{ grid-column-gap: 1%;  justify-content: center; width: 70%; margin-left: 12%; padding-left: 5%; padding-top: 2%; max-width: 70%;}
+   .calzado{ grid-column-gap: 1%;  justify-content: center; width: 85%; max-width: 85%;}
+   .dise1txt, .tallertxt, .dise5txt, .calzadotxt { grid-row: 2; grid-column-start: 1; grid-column-end:3}
+   .dise1txt{ font-size: 130%; padding-bottom: 1%; margin-bottom: 4%; width: 80%; margin-right: 90%; max-width: 80%; padding-right: 20%; ;}
+   .tallertxt{font-size: 110%; padding-bottom: 1%; padding-right: 3%;width: 100%; max-width: 100%;}
+   .dise5txt { font-size: 120%; padding-right: 4%; padding-bottom: 1%; margin-bottom: 2%;width: 100%; max-width: 100%;}
+   .calzadotxt{font-size: 110%; padding: 2%; width: 100%; max-width: 100%;}
+   .img { width: 5cm; height: 7.8cm; padding-left: 10%;}
+   .imgzd{width: 6cm; height: 6cm; padding-left: 18%;}
+   .imgzf{width: 6cm; height: 6cm;padding-left: 8%}
+   
+
+}
+
+@media only screen and (min-width: 992px){
+    h1 {width: 90%; font-size: 500%;}
+   .containerh{ max-width: 100%;}
+   #bienv{ font-size: 400%; text-align: start; margin-left: 26%;}
+   .grid-info * {font-size: 150%; width: 100%; justify-content: center; grid-row-gap: 1%}
+    .gridubi{ max-width: 100%; width: 100%; justify-content: center; grid-row-gap: 7%;margin-bottom: 3%; column-gap: 20%; grid-template-columns: auto auto; grid-template-rows: auto;}
+   .item2u { grid-column: 1; grid-row: 1; margin-left: 10%; text-align: center; width:150%; height:100%; }
+   .item1u{ font-size: 180%;height: 1%; grid-column: 2; grid-row: 1; margin-top: 1%; width: 80%;}
+   #sm,#obje { font-size: 250%; }
+   h2{ font-size: 400%;}
+   .enlac{ font-size: 100%;  margin-bottom: 2%; }
+   .foto{ grid-column: 1; grid-row: 1;}
+   .foto2{ grid-column: 2; grid-row: 1; }
+   .dise1,.tallermoda,.dise5{grid-column-gap: 3%; padding-left: 1%; padding-top: 1%;width:80%; margin-left: 15%;}
+   .calzado{grid-column-gap: 3%; width:80%}
+   .dise1txt, .tallertxt, .dise5txt, .calzadotxt { grid-row: 1; grid-column:3}
+   .dise1txt{ font-size: 130%; padding-bottom: 1%; margin-bottom: 1%; width: 80%; margin-left: 10%;margin-top: 5%;}
+   .tallertxt{font-size: 120%; padding-bottom: 1%; padding-right: 3%; padding-top: 8%; margin-top: 1%;}
+   .dise5txt { font-size: 110%; padding-bottom: 1%; margin-bottom: 1%;margin-top: 10%; width:100%}
+   .calzadotxt{font-size: 110%;margin-top: 8%;width:90%;margin-right: 10%;padding-right: 10%;}
+   .img { width: 5cm; height: 8cm; padding-top: 5%;}
+   .imgzd{width: 6cm; height: 6.5cm; padding-left: 1%;padding-top: 5%}
+   .imgzf{width: 6cm; height: 6.5cm; padding-left:1%;padding-top: 5%}
+
+}
+
